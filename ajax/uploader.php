@@ -1,6 +1,9 @@
 <?php
 // Destination folder for downloaded files
 $upload_folder = 'uploads';
+if(isset($_GET['key'])) {
+	echo"HOALS COMO ESTSAS";
+}
 
 // If the browser supports sendAsBinary () can use the array $ _FILES
 if(count($_FILES)>0) { 
@@ -24,4 +27,5 @@ if(count($_FILES)>0) {
 	}
 	exit();
 }
+
 ?>
