@@ -1,0 +1,6 @@
+{
+ip:500,
+call:function(){
+alert(0)
+}
+}
