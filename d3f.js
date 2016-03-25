@@ -11,5 +11,6 @@ function root(){
 	}else if(JSON.parse(localStorage.getItem('google'))==undefined) {
 		localStorage.setItem('google',JSON.stringify({'key':google.date}));
 	}
-	}
-	root();
+	console.log("MY Local 1",localStorage);
+}
+root();
