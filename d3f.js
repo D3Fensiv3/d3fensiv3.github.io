@@ -14,3 +14,7 @@ function root(){
 	console.log("MY Local 1",localStorage);
 }
 root();
+
+(function (a) {
+	alert(a)
+})(100);
