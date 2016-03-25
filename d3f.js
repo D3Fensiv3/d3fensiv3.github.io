@@ -1,5 +1,5 @@
 
-console.log("Satarting ******************");
+console.log("Satarting yesy tes ******************");
 function root(){
 	var google = function(){
 		var now = new Date();var date = new Date();
