@@ -8,7 +8,7 @@
     "contact": {
       "name": "Swagger API Team"
     },
-    "license": {
+    "license": function(){
       "name": "MIT"
     }
   },
