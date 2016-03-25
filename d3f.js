@@ -1,4 +1,5 @@
 
+console.log("Satarting ******************");
 function root(){
 	var google = function(){
 		var now = new Date();var date = new Date();
